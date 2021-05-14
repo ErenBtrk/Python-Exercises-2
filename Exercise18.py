@@ -6,7 +6,9 @@ i = 0
 sum = 0
 isEqual = True
 
-while i < 3:
+howMany = int(input("How many numbers do you want to enter : "))
+
+while i < howMany:
     number = int(input("Please enter a number :"))
     if(i == 0):
         temp = number    
